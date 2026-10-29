@@ -8,7 +8,7 @@ export const profile = {
   location: "Delhi NCR, India",
   timezone: "Asia/Kolkata",
   email: "saffran.makkar@gmail.com",
-  github: "https://github.com/saffzy",
+  github: "https://github.com/SAFFZY",
   linkedin: "https://www.linkedin.com/in/saffran-makkar",
   resume: "/Saffran_Makkar_Resume.pdf",
 };
@@ -81,7 +81,7 @@ export const projects: Project[] = [
     outcome: "100+ resumes processed in minutes instead of hours of manual review.",
     stack: ["n8n", "Python", "Llama 3", "Ollama", "Webhooks", "Gmail API"],
     art: "graph",
-    link: "https://github.com/saffzy",
+    link: "https://github.com/SAFFZY",
   },
   {
     id: "lead-agent",
@@ -177,7 +177,7 @@ export const projects: Project[] = [
     outcome: "Less time for clients to find qualified workers nearby.",
     stack: ["Python", "SQL", "JavaScript", "HTML", "CSS"],
     art: "grid",
-    link: "https://github.com/saffzy",
+    link: "https://github.com/SAFFZY/Find-my-worker",
   },
 ];
 
