@@ -109,15 +109,15 @@ export const projects: Project[] = [
     kind: "Alletec · Data engineering",
     year: "2026",
     summary:
-      "Analytics for MakeMyTrip, Veeba Foods and Somany Tiles, built on Microsoft Fabric.",
+      "Real-time analytics for enterprise clients in travel, FMCG and manufacturing, built on Microsoft Fabric.",
     problem:
-      "Business data lived across many disconnected sources, so reporting was slow and inconsistent.",
+      "Live business data was spread across many disconnected sources, so reporting lagged behind what was actually happening.",
     approach: [
-      "Built ingestion and transformation pipelines across 5+ data sources.",
+      "Built ingestion and transformation pipelines over real-time data from 5+ sources.",
       "Modelled the data so every report reads from one consistent layer.",
       "Delivered the reports that teams use to track performance.",
     ],
-    outcome: "10+ business reports powered for three enterprise clients.",
+    outcome: "10+ live business reports powered for three enterprise clients.",
     stack: ["Microsoft Fabric", "SQL", "ETL", "Python", "Pandas"],
     art: "bars",
   },
@@ -188,7 +188,7 @@ export const experience = [
     period: "Apr 2026 — Present",
     points: [
       "Built and deployed 8+ AI automation workflows across travel and sales operations with Python, FastAPI and n8n — ~40% less manual processing.",
-      "Delivered Microsoft Fabric analytics for MakeMyTrip, Veeba Foods and Somany Tiles: pipelines across 5+ sources powering 10+ reports.",
+      "Worked on real-time data for enterprise clients on Microsoft Fabric: pipelines across 5+ sources powering 10+ reports.",
       "Integrated LLM agents with internal APIs and webhooks for lead qualification and query routing — hours down to minutes.",
     ],
   },
@@ -220,6 +220,7 @@ export const education = {
 };
 
 export const certifications = [
+  "Microsoft Fabric Data Engineer Associate (DP-700)",
   "Microsoft Azure AI Fundamentals (AI-900)",
   "Google — Generative AI",
   "IBM — Python 101 for Data Science",
