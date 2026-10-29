@@ -10,7 +10,7 @@ export const profile = {
   email: "saffran.makkar@gmail.com",
   github: "https://github.com/SAFFZY",
   linkedin: "https://www.linkedin.com/in/saffran-makkar",
-  resume: "/Saffran_Makkar_Resume.pdf",
+  resume: `${import.meta.env.BASE_URL}Saffran_Makkar_Resume.pdf`,
 };
 
 export const stats = [
